@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer {
+  html {
+    @apply overflow-x-hidden scroll-pt-7 scroll-smooth;
+  }
+
+  body {
+    @apply bg-secondary text-base font-normal box-border font-worksans transition-all duration-150;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-montserrot;
+  }
+
+  @layer components {
+    .hover-iffect {
+      @apply relative hover:text-primary hover:!opacity-100 duration-150 transition-all  ease-linear;
+    }
+    .hover-iffect::before {
+      @apply content-[''] -bottom-1 w-full h-[2px] origin-right  transition-transform duration-250 ease-linear absolute left-0 right-0  scale-x-0 bg-primary;
+    }
+    .hover-iffect:hover::before{
+      @apply scale-x-100 origin-left
+    }
+  }
+
+  @layer utilities {
+    @media (max-width: 250px) {
+      html {
+        font-size: 50%;
+      }
+    }
+    @media (max-width: 450px) {
+      html {
+        font-size: 75%;
+      }
+    }
+    @media (min-width: 557px) {
+      html {
+        font-size: 100%;
+      }
+    }
+  }
+}
