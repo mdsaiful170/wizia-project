@@ -10,7 +10,7 @@ const Signupbutton = ({ children, className }) => {
       radius="full"
       endContent={<SquareArrowUpRight size={15} />}
       className={cn(
-        " py-5 text-secondary w-full md:w-1/2 text-base font-semibold hover:!opacity-100 border border-secondary/15 hover:text-slate-800 hover:bg-white px-4 ",
+        " py-5 text-secondary w-full md:w-[40%] text-base font-semibold hover:!opacity-100 border border-secondary/15 hover:text-slate-800 hover:bg-white px-4 ",
         className
       )}
     >

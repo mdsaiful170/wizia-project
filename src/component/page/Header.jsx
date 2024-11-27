@@ -23,7 +23,7 @@ const Header = () => {
       shouldHideOnScroll
       isBlurred={true}
       isSticky
-      className="bg-secondary border-b border-[#183A40]  py-4 lg:py-5 xl:py-6 w-full mx-auto"
+      className="bg-secondary border-b border-[#183A40]  py-4 lg:py-5 w-full mx-auto"
       maxWidth="xl"
     >
       {/* navbar logo */}
@@ -51,7 +51,7 @@ const Header = () => {
       </NavbarContent>
 
       {/* button group */}
-      <NavbarContent className="sm:flex gap-x-2 " justify="end">
+      <NavbarContent className="sm:flex gap-x-3 " justify="end">
         {/* book a demo button */}
         <NavbarItem className="hidden md:block">
           <Button
