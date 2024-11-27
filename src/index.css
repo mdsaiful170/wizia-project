@@ -28,8 +28,8 @@
     .hover-iffect::before {
       @apply content-[''] -bottom-1 w-full h-[2px] origin-right  transition-transform duration-250 ease-linear absolute left-0 right-0  scale-x-0 bg-primary;
     }
-    .hover-iffect:hover::before{
-      @apply scale-x-100 origin-left
+    .hover-iffect:hover::before {
+      @apply scale-x-100 origin-left;
     }
   }
 
@@ -49,5 +49,14 @@
         font-size: 100%;
       }
     }
+  }
+  .swiper-pagination-bullet {
+    width: 0.8rem !important;
+    margin: 0 0.7rem !important;
+    height: 0.8rem !important;
+    background-color: #0FF1F6 !important;
+  }
+  .swiper-pagination-bullet .swiper-pagination-bullet-active {
+    background-color: #0FF1F6 !important;
   }
 }

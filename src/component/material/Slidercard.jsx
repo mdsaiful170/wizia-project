@@ -1,18 +1,19 @@
-
 import { cn } from "../../../lib/cn";
 
 const Slidercard = (props) => {
-  const { id, icon, des, name, subtext, className } = props || {};
+  const { id, icon, des, name, position, className } = props || {};
   return (
     <>
       <div
         key={id}
         className={cn(
-          "max-w-md md:max-w-xl lg:max-w-4xl mx-auto w-full p-1 inline-flex flex-col items-center justify-center",
+          " flex items-center justify-center flex-col text-center p-1 h-auto max-lg md:max-xl lg:max-w-3xl",
           className
         )}
       >
-        <div className="p-5 rounded-full bg-[#183A40]">{icon}</div>
+        <div className=" px-4 py-5 rounded-full bg-[#183A40]">
+          <img src={icon} alt="icon" className="object-cover w-8" />
+        </div>
         <p className="font-worksans pt-5 md:pt-8 lg:pt-10 font-[300] text-white/75 text-base md:text-xl lg:text-3xl">
           {des}
         </p>
@@ -20,7 +21,7 @@ const Slidercard = (props) => {
           <h5 className="text-primary text-2xl font-semibold font-worksans">
             {name}
           </h5>
-          <p className="font-worksans text-xl font-normal">{subtext}</p>
+          <p className="font-worksans text-xl font-normal text-white/75">{position}</p>
         </div>
       </div>
     </>
