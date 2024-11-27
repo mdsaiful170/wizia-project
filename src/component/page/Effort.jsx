@@ -8,7 +8,7 @@ const Effort = () => {
       <section className="px-3">
         <Containerbox
           className={
-            "bg-[url(./effortbg.svg)] bg-right-top bg-cover lg:bg-center  bg-no-repeat w-full   px-6 py-8 lg:pb-24 lg:px-16  lg:pt-[68px]"
+            "bg-[url(../effortbg.svg)] bg-right-top bg-cover lg:bg-center  bg-no-repeat w-full   px-6 py-8 lg:pb-24 lg:px-16  lg:pt-[68px]"
           }
         >
           <div>
