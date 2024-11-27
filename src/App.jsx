@@ -1,5 +1,6 @@
 import Effort from "./component/page/Effort";
 import Embrace from "./component/page/Embrace";
+import Footer from "./component/page/Footer";
 import Header from "./component/page/Header";
 import Hero from "./component/page/Hero";
 import Partners from "./component/page/Partners";
@@ -19,6 +20,7 @@ function App() {
         <Slider />
         <Effort />
         <Embrace />
+        <Footer />
       </main>
     </>
   );
