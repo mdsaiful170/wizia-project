@@ -29,7 +29,7 @@ const bestSystem = [
 const System = () => {
   return (
     <>
-      <section className="py-28">
+      <section className="py-28 ">
         <Containerbox>
           <div className="grid gap-x-6 grid-cols-1 md:grid-cols-2 gap-y-5 lg:grid-cols-3">
             {bestSystem.map((res) => (

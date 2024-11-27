@@ -13,6 +13,7 @@ function App() {
         <Partners />
         <System />
         <Train />
+        
       </main>
     </>
   );

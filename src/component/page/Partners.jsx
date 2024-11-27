@@ -4,7 +4,7 @@ import Containerbox from "../material/Containerbox";
 const Partners = () => {
   return (
     <>
-      <section className="bg-[#07292F]">
+      <section className="bg-[#07292F] px-3">
         <Containerbox className={"max-w-3xl mx-auto pb-10 pt-8"}>
           <h4 className="text-center text-base font-normal text-[#0FF1F6] uppercase mb-4 lg:pb-6">
             our trusted partners
