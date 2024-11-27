@@ -5,7 +5,7 @@ import { Copyright } from "lucide-react";
 export const Logo = () => {
   return (
     <>
-      <img src="./whiteLogo.svg" className="max-w-full object-contain" alt="" />
+      <img src="./whiteLogo.svg" className="max-w-full object-contain" alt="svg-img" />
     </>
   );
 };

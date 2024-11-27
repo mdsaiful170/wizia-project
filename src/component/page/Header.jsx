@@ -29,7 +29,7 @@ const Header = () => {
       {/* navbar logo */}
       <NavbarContent>
         <NavbarBrand>
-          <img src="./Logo.svg" className="max-w-full object-cover" alt="" />
+          <img src="./Logo.svg" className="max-w-full object-cover" alt="svg.img" />
         </NavbarBrand>
       </NavbarContent>
 

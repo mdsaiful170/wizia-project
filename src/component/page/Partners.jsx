@@ -13,7 +13,7 @@ const Partners = () => {
           <div className=" flex-wrap flex items-center gap-x-5 justify-center  ">
             {partnerLogo.map((logo, i) => (
               <div key={i} className="max-w-full">
-                <img src={logo} className="max-w-full object-cover" alt="" />
+                <img src={logo} className="max-w-full object-cover" alt="svg.img" />
               </div>
             ))}
           </div>

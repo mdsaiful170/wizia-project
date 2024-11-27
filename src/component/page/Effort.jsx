@@ -1,4 +1,4 @@
-import React from "react";
+
 import Containerbox from "../material/Containerbox";
 import { effortData } from "../../../lib/data";
 import CountUp from "react-countup";

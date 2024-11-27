@@ -12,7 +12,7 @@ const Slidercard = (props) => {
         )}
       >
         <div className=" px-4 py-5 rounded-full bg-[#183A40]">
-          <img src={icon} alt="icon" className="object-cover w-8" />
+          <img src={icon} alt="icon.svg" className="object-cover w-8" />
         </div>
         <p className="font-worksans pt-5 md:pt-8 lg:pt-10 font-[300] text-white/75 text-base md:text-xl lg:text-3xl">
           {des}
