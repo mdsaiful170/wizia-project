@@ -5,7 +5,7 @@ class Hero extends React.PureComponent {
   render() {
     return (
       <>
-        <section className="bg-[url(./hero.svg)] pe-3 md:pe-0  bg-right-top object-cover w-screen bg-no-repeat lg:bg-center">
+        <section className="bg-[url(../hero.svg)] pe-3 md:pe-0  bg-right-top object-cover w-screen bg-no-repeat lg:bg-center">
           <Containerbox
             className={
               "py-20 md:py-24  grid place-items-center md:place-items-start "
