@@ -8,9 +8,11 @@ class Train extends React.PureComponent {
   render() {
     return (
       <>
-        <section>
+        <section className="px-3 "> 
           <Containerbox
-            className={"bg-[url(./hero.svg)] rounded-[24px] bg-center border border-primary/10 w-full bg-no-repeat     py-24 lg:py-28 "}
+            className={
+              "bg-[url(./trainbg.svg)] bg-left-top bg-cover bg-no-repeat  w-full rounded-[24px]  border border-primary/10     py-24 lg:py-28 "
+            }
           >
             <div className="max-w-2xl mx-auto lg:ms-[35%] ">
               <h2 className="text-4xl font-semibold text-white">
