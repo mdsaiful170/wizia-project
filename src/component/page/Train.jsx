@@ -14,7 +14,7 @@ class Train extends React.PureComponent {
               "bg-[url(./trainbg.svg)] bg-left-top bg-cover bg-no-repeat w-full rounded-[24px]  border border-primary/10 py-24 lg:py-28 "
             }
           >
-            <div className="max-w-2xl mx-auto lg:ms-[35%] ">
+            <div className="max-w-2xl mx-auto lg:ms-[35%]bun r ">
               <h2 className="text-4xl font-semibold text-white">
                 {trainData.title}
               </h2>

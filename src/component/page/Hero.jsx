@@ -15,11 +15,11 @@ class Hero extends React.PureComponent {
               <span className="text-2xl font-normal font-montserrot text-primary">
                 AI SDRs (aiDRs)
               </span>
-              <h1 className="text-6xl  max-w-full lg:leading-[78px] md:max-w-[24rem] text-white font-bold">
+              <h1 className="text-7xl  max-w-full lg:leading-[78px] md:max-w-[29rem] text-white font-bold">
                 More <i className="font-medium text-white/80">leads,</i> less{" "}
                 <i className="font-medium text-white/80">people</i>.
               </h1>
-              <p className=" pb-5 lg:pb-6 mx-auto md:mx-0 text-[1.2rem] xl:text-[1.3rem] max-w-[35rem] text-white/75 leading-[1.7rem]">
+              <p className=" pb-5 pt-2 lg:pb-6 mx-auto md:mx-0 text-[1.2rem] xl:text-[1.3rem] max-w-[35rem] text-white/75 leading-[1.7rem]">
                 Train an aiDR on your ICP and messaging matrix. Activate it on a
                 patch. It will send personalized sequences to every target
                 contact.

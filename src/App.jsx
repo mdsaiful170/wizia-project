@@ -1,4 +1,5 @@
 import Effort from "./component/page/Effort";
+import Embrace from "./component/page/Embrace";
 import Header from "./component/page/Header";
 import Hero from "./component/page/Hero";
 import Partners from "./component/page/Partners";
@@ -17,6 +18,7 @@ function App() {
         <Train />
         <Slider />
         <Effort />
+        <Embrace />
       </main>
     </>
   );
