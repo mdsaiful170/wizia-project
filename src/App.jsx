@@ -1,3 +1,4 @@
+import Effort from "./component/page/Effort";
 import Header from "./component/page/Header";
 import Hero from "./component/page/Hero";
 import Partners from "./component/page/Partners";
@@ -15,6 +16,7 @@ function App() {
         <System />
         <Train />
         <Slider />
+        <Effort />
       </main>
     </>
   );
